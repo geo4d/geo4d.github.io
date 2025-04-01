@@ -36,7 +36,7 @@
 
     iframe {
       border-radius: 8px;
-      width: 49%;
+      width: 48%;
       height: 100%;
       border: none;
       box-shadow: 0 0 0px 0em rgba(0, 0, 0, 0.15);
@@ -49,10 +49,10 @@
       }
     } */
 
-    a,
+    /* a,
     a:link {
       color: #777;
-    }
+    } */
 
     /* Styles for the instruction icons and text */
     .instructions {
@@ -356,13 +356,12 @@
   </div>
     <h3 class="title">Comparison</h3>
     <p>
-        Attribute to our group-wise inference manner and prior geometry knowledge from pretrained video diffusion model, our model successfully produces consistent 4D geometry under fast motion (example 1&2) and deceptive reflection (example 3). 
+        Attribute to our group-wise inference manner and prior geometry knowledge from pretrained video diffusion model, our model successfully produces consistent 4D geometry under fast motion. <b>For more comparisons</b>, please visit the <a href="comparison.html" target="_blank" style="font-weight: bold; color: rgb(#1f3598);">comparison page.</a>
     </p>
 
     
   <section class="hero is-light is-small" style="background-color: white;">
     <div class="hero-body">
-      
       <!-- <div class="container">
         <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1">
           <div class="item item-steve">
@@ -413,20 +412,20 @@
           </div>
         </div>
       </div> -->
-
-      <div id="wrapper" style="
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 2em;
-      height: 30vh;
-      ">
-          <iframe
-          src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_drift-turn-4m.viser&initDistanceScale=0.2&initHeightOffset=0.0"></iframe>
-          <iframe
-          src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_drift-turn-4.viser&initDistanceScale=0.2&initHeightOffset=0.0"></iframe>
-      </div>
+      <div class="item item-steve">
+        <div id="wrapper" style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        height: 30vh;
+        ">
+            <iframe
+            src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_drift-turn-4m.viser&initDistanceScale=0.2&initHeightOffset=0.0"></iframe>
+            <iframe
+            src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_drift-turn-4.viser&initDistanceScale=0.2&initHeightOffset=0.0"></iframe>
+        </div>
       <!-- Labels for the iframes -->
     <div style="display: flex; justify-content: center; gap: 0em; text-align: center; margin-top: 0px;">
         <div style="width: 50%;">MonST3R</div>
@@ -437,12 +436,26 @@
 
     <h3 class="title">More Qualitative Results</h3>
     <p>
-      Our method generalizes to various scenes with different 4D objects and performs robustly against different camera and object motion.
+      Our method generalizes to various scenes with different 4D objects and performs robustly against different camera and object motion. <b>For more results</b>, please visit the <a href="results.html" target="_blank" style="font-weight: bold; color: rgb(#1f3598);">result page.</a>
     </p>
 
-  <!-- <section class="hero is-light is-small" style="background-color: white;">
+  <section class="hero is-light is-small" style="background-color: white;">
     <div class="hero-body">
-      <div class="container">
+        <div class="item item-steve">
+            <div id="wrapper" style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            height: 30vh;
+            ">
+                <iframe
+                src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_person_tracking2_good.viser&initDistanceScale=0.4&initHeightOffset=0.0"></iframe>
+                <iframe
+                src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_snowboard.viser&initDistanceScale=0.4&initHeightOffset=0.0"></iframe>
+            </div>
+      <!-- <div class="container">
         <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="2">
           <div class="item item-steve">
             <iframe
@@ -469,14 +482,11 @@
                 src="https://geo4d.github.io/build/index.html?playbackPath=https://geo4d.github.io/viser/recording_kitti_1_good.viser&initDistanceScale=0.4&initHeightOffset=0.0", style="height: 30vh; width: 100%;"></iframe>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-  </section> -->
-
-
+  </section>
   </div>
 </section>
-
 
 <section class="section" id="Acknowledgment">
   <div class="container is-max-desktop content">
